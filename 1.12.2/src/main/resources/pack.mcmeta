@@ -1,0 +1,6 @@
+{
+    "pack": {
+        "description": "A mod that sets up a whitelist when the server boots and then takes it off after some time to avoid crashes on startup.",
+        "pack_format": 3
+    }
+}
