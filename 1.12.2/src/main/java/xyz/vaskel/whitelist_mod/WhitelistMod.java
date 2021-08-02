@@ -12,7 +12,7 @@ import org.apache.logging.log4j.Logger;
 
 import java.io.File;
 
-@Mod(modid = WhitelistMod.MODID, name = WhitelistMod.NAME, version = WhitelistMod.VERSION, acceptableRemoteVersions = "*")
+@Mod(modid = WhitelistMod.MODID, name = WhitelistMod.NAME, version = WhitelistMod.VERSION, acceptableRemoteVersions = "*", serverSideOnly = true)
 public class WhitelistMod
 {
     public static final String MODID = "whitelist_mod";
